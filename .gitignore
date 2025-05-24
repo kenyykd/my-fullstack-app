@@ -1,0 +1,20 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.env
+dist/
+tmp/
+.DS_Store # macOS specific
+*.log
+
+# VSCode
+.vscode/
+
+# Frontend specific
+frontend/dist/ # Vue build output folder (Vite will build to 'dist' by default)
+
+# Backend specific
+backend/.env # 再次強調後端的 .env 檔案不要提交
